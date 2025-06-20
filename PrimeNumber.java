@@ -9,7 +9,8 @@ public class PrimeNumber {
         Scanner sc = new Scanner(System.in);
 
         // Taking input from user 
-        System.out.print("Enter a integer number : ");
+        System.out.print("Enter only a positive integer numbers : ");
+    
         int number = sc.nextInt();
 
         if (isPrime(number)) {
